@@ -4,7 +4,7 @@ This script is intended to printout a nice default page if it is included/presen
 
 ## RULE 1
 
-If so, update(s) is/are made within sub-directorie(s)[^1]  present(s) in this directory.
+If so, update(s) is/are made within sub-directorie(s) present(s) in this directory. The initial script is copied in that sub-directory that's how it is updated.
 
 ## RULE 2
 
@@ -12,7 +12,7 @@ If you go within one of these sub-directorie(s) then, it becomes current directo
 
 ## FILE README.POD
 
-By default only README.pod is interpreted in the current directory.  To write *.pod scripts go to (https://perldoc.perl.org/perlpod). scripting language. [^2].
+By default only README.pod is interpreted in the current directory.  To write *.pod scripts go to https://perldoc.perl.org/perlpod. Only one README.pod file per directory is allowed but that directory can have as many as *.pod file as needed!
 
 # Technical prerequisites
 
@@ -36,7 +36,4 @@ Daily [dem](https://youtu.be/sYGizBhjti4) is there for the time being! :-(
 
 It is still unstable portage is not over yet. Tested on Linux (Fedora, Ubuntu), Mac OS X (Venture 13.1).
 
-[^1]: The initial script is copied in that sub-directory that's how it is updated.
-[^2]: Only one README.pod file per directory but that directory can have as many as *.pod file as you want!
-<!-- [^3]: [Pod](https://perldoc.perl.org/perlpod) syntax. -->
 [^4]: [Dependecies](https://www.cpan.org/). 
