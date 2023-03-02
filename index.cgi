@@ -10,13 +10,11 @@ q##//q#
 * Created By : sdo
 * File Name : index.cgi
 * Creation Date :2012-02-16 00:40:17
-* @modify date 2021-06-28 01:45:43
+* Last Modified : 2023-03-02 03:30:31
 * Email Address : sdo@dorseb.ddns.net
-* Version : 0.0.5.1
+* Version : 0.0.5.6
 * License:
-*       Permission is granted to copy, distribute, and/or modify this document under the terms of the Creative Commons Attribution-NonCommercial 3.0
-*       Unported License, which is available at http: //creativecommons.org/licenses/by- nc/3.0/.
-* Purpose :
+*				It is distributed under the Artistic License 2.0
 #;
 # ------------------------------------------------------
 
@@ -39,7 +37,7 @@ use DateTime;
 use Fcntl qw(:flock SEEK_END); # import LOCK_* and SEEK_END constants
 
 my $osname = $^O;
-my $VERSION="0.0.5.1";
+my $VERSION="0.0.5.6";
 
 # -------------------------------------------------------------------------------
 # Do not touch the next line
