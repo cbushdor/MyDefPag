@@ -20,8 +20,6 @@ By default only README.pod[^3] is interpreted in the current directory[^2].
 
 - It is needed to install some more dependencies[^4]...
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/France_road_sign_A14.svg/1154px-France_road_sign_A14.svg.png"  width="30%" height="15%"> read/write issue need to be set at server side.
-
 # What else to say? Just click me!
 
 [![Everything Is AWESOME](https://i.imgur.com/k9Fbtv9.png)](https://youtu.be/sYGizBhjti4) Daily dem!
