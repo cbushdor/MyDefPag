@@ -30,7 +30,7 @@ my %pathOS = ( 'linux' => '/home/sdo/public_html/','darwin' => '/Users/sdo/Sites
 
 # What else to say? Just click me!
 
-[![Everything Is AWESOME](https://i.imgur.com/k9Fbtv9.png)](https://youtu.be/sYGizBhjti4) Daily dem!
+Daily [dem](https://youtu.be/sYGizBhjti4) is there for the time being! :-(
 
 # FYI
 
