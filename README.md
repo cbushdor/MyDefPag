@@ -20,6 +20,14 @@ By default only README.pod[^3] is interpreted in the current directory[^2].
 
 - It is needed to install some more dependencies[^4]...
 
+- Modification within *index.cgi* need to be made:
+
+```
+my %pathOS = ( 'linux' => '/home/sdo/public_html/','darwin' => '/Users/sdo/Sites/');
+```
+
+- Deprecated link on repo was made.
+
 # What else to say? Just click me!
 
 [![Everything Is AWESOME](https://i.imgur.com/k9Fbtv9.png)](https://youtu.be/sYGizBhjti4) Daily dem!
