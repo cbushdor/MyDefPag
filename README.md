@@ -18,7 +18,7 @@ By default only README.pod is interpreted in the current directory.  To write *.
 
 - It is needed to have script interpreter installed at server side.
 
-- It is needed to install some more dependencies[^4]...
+- It is needed to install some more dependencies... To install these dependecies go to https://www.cpan.org/.
 
 - Modification within *index.cgi* need to be made:
 
@@ -36,4 +36,3 @@ Daily [dem](https://youtu.be/sYGizBhjti4) is there for the time being! :-(
 
 It is still unstable portage is not over yet. Tested on Linux (Fedora, Ubuntu), Mac OS X (Venture 13.1).
 
-[^4]: [Dependecies](https://www.cpan.org/). 
