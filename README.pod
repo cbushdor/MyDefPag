@@ -1,11 +1,93 @@
 =encoding utf8
 
-=head1 Répertoire de base / Base directory
+
+=head1 Introduction
+
+This script is intended to printout a nice default page if it is included/present in the current directory.
 
 =over
 
-Bienvenue sur le répertoire de base.
+=item -
 
-I<Welcome in the base directory.>
+
+=head2 RULE 1
+
+
 
 =back
+
+If so, update(s) is/are made within sub-directorie(s)L<^1|The>  present(s) in this directory.
+
+=over
+
+=item -
+
+
+=head2 RULE 2
+
+
+
+=back
+
+If you go within one of these sub-directorie(s) then, it becomes current directory and RULE 1 is applied and so on and so fourth!
+
+=over
+
+=item -
+
+
+=head2 FILE README.POD
+
+
+
+=back
+
+By default only README.podL<^3|[Pod](https://perldoc.perl.org/perlpod)> is interpreted in the current directoryL<^2|Only>.
+
+
+=head1 Technical prerequisites
+
+=over
+
+=item -
+
+It is needed to have script interpreter installed at server side.
+
+
+
+=item -
+
+It is needed to install some more dependenciesL<^4|[Dependecies](https://www.cpan.org/).>...
+
+
+
+=item -
+
+Modification within I<index.cgi> need to be made:
+
+
+
+=back
+
+ 
+ my %pathOS = ( 'linux' => '/home/sdo/public_html/','darwin' => '/Users/sdo/Sites/');
+
+
+=over
+
+=item -
+
+Deprecated link on repo was made.
+
+
+=back
+
+
+=head1 What else to say? Just click me!
+
+Daily L<dem|https://youtu.be/sYGizBhjti4> is there for the time being! :-(
+
+
+=head1 FYI
+
+It is still unstable portage is not over yet. Tested on Linux (Fedora, Ubuntu), Mac OS X (Venture 13.1).
