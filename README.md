@@ -32,6 +32,10 @@ my %pathOS = ( 'linux' => '/home/sdo/public_html/','darwin' => '/Users/sdo/Sites
 
 [![Everything Is AWESOME](https://i.imgur.com/k9Fbtv9.png)](https://youtu.be/sYGizBhjti4) Daily dem!
 
+# FYI
+
+It is still unstable portage is not over yet. Tested on Linux (Fedora, Ubuntu), Mac OS X (Venture 13.1).
+
 [^1]: The initial script is copied in that sub-directory that's how it is updated.
 [^2]: Only one README.pod file per directory but that directory can have as many as *.pod file as you want!
 [^3]: [Pod](https://perldoc.perl.org/perlpod) syntax.
