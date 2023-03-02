@@ -1,23 +1,19 @@
 #!/Users/sdo/perl5/perlbrew/perls/perl-5.36.0/bin/perl -T
-##!/opt/homebrew/bin/perl -T
-
-use lib '/Users/sdo/perl5/lib/perl5/';
-#use lib '/Users/sdo/perl5/lib/perl5/darwin-2level/';
-#use lib '/Users/sdo/perl5/lib/perl5/darwin-2level/auto/';
 
 # ------------------------------------------------------
 q##//q#
 * Created By : sdo
 * File Name : index.cgi
 * Creation Date :2012-02-16 00:40:17
-* Last Modified : 2023-03-02 03:30:31
+* Last Modified : 2023-03-02 03:51:07
 * Email Address : sdo@dorseb.ddns.net
-* Version : 0.0.5.6
+* Version : 0.0.5.7
 * License:
 *				It is distributed under the Artistic License 2.0
 #;
 # ------------------------------------------------------
 
+use lib '/Users/sdo/perl5/lib/perl5/';
 
 use strict;
 use warnings;
@@ -37,7 +33,7 @@ use DateTime;
 use Fcntl qw(:flock SEEK_END); # import LOCK_* and SEEK_END constants
 
 my $osname = $^O;
-my $VERSION="0.0.5.6";
+my $VERSION="0.0.5.7";
 
 # -------------------------------------------------------------------------------
 # Do not touch the next line
