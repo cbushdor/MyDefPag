@@ -24,7 +24,9 @@ By default only README.pod[^3] is interpreted in the current directory[^2].
 
 # What else to say? Just click me!
 
-[![Everything Is AWESOME](https://i.imgur.com/k9Fbtv9.png)](https://youtu.be/sYGizBhjti4)
+[![Everything Is AWESOME](https://i.imgur.com/k9Fbtv9.png)](https://youtu.be/sYGizBhjti4) Daily dem!
+
+[![Everything Is AWESOME](https://youtu.be/nJBjqR3NEN0)] yet another !!!
 
 [^1]: The initial script is copied in that sub-directory that's how it is updated.
 [^2]: Only one README.pod file per directory but that directory can have as many as *.pod file as you want!
