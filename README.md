@@ -12,7 +12,7 @@ If you go within one of these sub-directorie(s) then, it becomes current directo
 
 ## FILE README.POD
 
-By default only README.pod[^3] is interpreted in the current directory[^2].
+By default only README.pod is interpreted in the current directory.  To write *.pod use the [Pod](https://perldoc.perl.org/perlpod) scripting language. [^2].
 
 # Technical prerequisites
 
@@ -38,5 +38,5 @@ It is still unstable portage is not over yet. Tested on Linux (Fedora, Ubuntu), 
 
 [^1]: The initial script is copied in that sub-directory that's how it is updated.
 [^2]: Only one README.pod file per directory but that directory can have as many as *.pod file as you want!
-[^3]: [Pod](https://perldoc.perl.org/perlpod) syntax.
+<!-- [^3]: [Pod](https://perldoc.perl.org/perlpod) syntax. -->
 [^4]: [Dependecies](https://www.cpan.org/). 
