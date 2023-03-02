@@ -16,11 +16,15 @@ By default only README.pod[^3] is interpreted in the current directory[^2].
 
 =head1 Technical prerequisites
 
- It is needed to have script interpreter installed at server side.
- 
- It is needed to install some more dependencies[^4]...
- 
- Modification within *index.cgi* need to be made:
+=over
+
+=item * It is needed to have script interpreter installed at server side.
+
+=item * It is needed to install some more dependenciesL<LL<https://www.cpan.org/>.>...
+
+=item * Modification within I<index.cgi> need to be made:
+
+=back
 
 C<< 
 my %pathOS = ( 'linux' =E<gt> '/home/sdo/public_html/','darwin' =E<gt> '/Users/sdo/Sites/');

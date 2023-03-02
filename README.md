@@ -16,11 +16,11 @@ By default only README.pod[^3] is interpreted in the current directory[^2].
 
 # Technical prerequisites
 
-    It is needed to have script interpreter installed at server side.
+- It is needed to have script interpreter installed at server side.
 
-    It is needed to install some more dependencies[^4]...
+- It is needed to install some more dependencies[^4]...
 
-    Modification within *index.cgi* need to be made:
+- Modification within *index.cgi* need to be made:
 
 ```
 my %pathOS = ( 'linux' => '/home/sdo/public_html/','darwin' => '/Users/sdo/Sites/');
