@@ -2,41 +2,25 @@
 
 This script is intended to printout a nice default page if it is included/present in the current directory.
 
-=over
-
-=item * ## RULE 1
-
-=back
+=head2 RULE 1
 
 If so, update(s) is/are made within sub-directorie(s)[^1]  present(s) in this directory.
 
-=over
-
-=item * ## RULE 2
-
-=back
+=head2 RULE 2
 
 If you go within one of these sub-directorie(s) then, it becomes current directory and RULE 1 is applied and so on and so fourth!
 
-=over
-
-=item * ## FILE README.POD
-
-=back
+=head2 FILE README.POD
 
 By default only README.pod[^3] is interpreted in the current directory[^2].
 
 =head1 Technical prerequisites
 
-=over
-
-=item * It is needed to have script interpreter installed at server side.
-
-=item * It is needed to install some more dependenciesL<LL<https://www.cpan.org/>.>...
-
-=item * Modification within I<index.cgi> need to be made:
-
-=back
+ It is needed to have script interpreter installed at server side.
+ 
+ It is needed to install some more dependencies[^4]...
+ 
+ Modification within *index.cgi* need to be made:
 
 C<< 
 my %pathOS = ( 'linux' =E<gt> '/home/sdo/public_html/','darwin' =E<gt> '/Users/sdo/Sites/');
