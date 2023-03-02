@@ -1,18 +1,29 @@
+
 =head1 Introduction
 
 This script is intended to printout a nice default page if it is included/present in the current directory.
 
 =over
 
-=item * ## RULE 1
+=item -
+
+
+=head2 RULE 1
+
+
 
 =back
 
-If so, update(s) is/are made within sub-directorie(s)[^1]  present(s) in this directory.
+If so, update(s) is/are made within sub-directorie(s)L<^1|The>  present(s) in this directory.
 
 =over
 
-=item * ## RULE 2
+=item -
+
+
+=head2 RULE 2
+
+
 
 =back
 
@@ -20,42 +31,61 @@ If you go within one of these sub-directorie(s) then, it becomes current directo
 
 =over
 
-=item * ## FILE README.POD
+=item -
+
+
+=head2 FILE README.POD
+
+
 
 =back
 
-By default only README.pod[^3] is interpreted in the current directory[^2].
+By default only README.podL<^3|[Pod](https://perldoc.perl.org/perlpod)> is interpreted in the current directoryL<^2|Only>.
+
 
 =head1 Technical prerequisites
 
 =over
 
-=item * It is needed to have script interpreter installed at server side.
+=item -
 
-=item * It is needed to install some more dependenciesL<LL<https://www.cpan.org/>.>...
+It is needed to have script interpreter installed at server side.
 
-=item * Modification within I<index.cgi> need to be made:
+
+
+=item -
+
+It is needed to install some more dependenciesL<^4|[Dependecies](https://www.cpan.org/).>...
+
+
+
+=item -
+
+Modification within I<index.cgi> need to be made:
+
+
 
 =back
 
-C<< 
-my %pathOS = ( 'linux' =E<gt> '/home/sdo/public_html/','darwin' =E<gt> '/Users/sdo/Sites/');
- >>
+ 
+ my %pathOS = ( 'linux' => '/home/sdo/public_html/','darwin' => '/Users/sdo/Sites/');
+
 
 =over
 
-=item * Deprecated link on repo was made.
+=item -
+
+Deprecated link on repo was made.
+
 
 =back
 
+
 =head1 What else to say? Just click me!
 
-Daily LL<https://youtu.be/sYGizBhjti4> is there for the time being! :-(
+Daily L<dem|https://youtu.be/sYGizBhjti4> is there for the time being! :-(
+
 
 =head1 FYI
 
 It is still unstable portage is not over yet. Tested on Linux (Fedora, Ubuntu), Mac OS X (Venture 13.1).
-
-[^1]: The initial script is copied in that sub-directory that's how it is updated.
-[^2]: Only one README.pod file per directory but that directory can have as many as *.pod file as you want!
-[^3]: LL<https://perldoc.perl.org/perlpod> syntax.
