@@ -12,7 +12,7 @@ If you go within one of these sub-directorie(s) then, it becomes current directo
 
 ## FILE README.POD
 
-By default only README.pod is interpreted in the current directory.  To write *.pod use the [Pod](https://perldoc.perl.org/perlpod) scripting language. [^2].
+By default only README.pod is interpreted in the current directory.  To write *.pod scripts go to (https://perldoc.perl.org/perlpod). scripting language. [^2].
 
 # Technical prerequisites
 
