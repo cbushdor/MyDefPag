@@ -38,7 +38,7 @@ my %pathOS = ( 'linux' =E<gt> '/home/sdo/public_html/','darwin' =E<gt> '/Users/s
 
 =head1 What else to say? Just click me!
 
-https://youtu.be/sYGizBhjti4
+A basic L<dem|https://youtu.be/sYGizBhjti4>.
 
 =head1 FYI
 
