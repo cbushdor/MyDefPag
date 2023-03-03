@@ -20,7 +20,7 @@ By default only README.pod is interpreted in the current directory.  To write *.
 
 =item * It is needed to have script interpreter installed at server side.
 
-=item * It is needed to install some more dependencies... To install these dependecies go to L<cpan|https://www.cpan.org/>.
+=item * It is needed to install some more dependencies... To install these dependecies go to L<cpan|https://www.cpan.org/> documentation.
 
 =item * Modification within I<index.cgi> need to be made:
 
