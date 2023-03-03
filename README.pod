@@ -12,7 +12,7 @@ If you go within one of these sub-directorie(s) then, it becomes current directo
 
 =head2 FILE README.POD
 
-By default only README.pod is interpreted in the current directory.  To write *.pod scripts go to L<pod|https://perldoc.perl.org/perlpod>. Only one README.pod file per directory is allowed but that directory can have as many as *.pod file as needed!
+By default only README.pod is interpreted in the current directory.  To write *.pod scripts go to L<pod|https://perldoc.perl.org/perlpod> documention. Only one README.pod file per directory is allowed but that directory can have as many as *.pod file as needed!
 
 =head1 Technical prerequisites
 
@@ -20,7 +20,7 @@ By default only README.pod is interpreted in the current directory.  To write *.
 
 =item * It is needed to have script interpreter installed at server side.
 
-=item * It is needed to install some more dependencies... To install these dependecies go to https://www.cpan.org/.
+=item * It is needed to install some more dependencies... To install these dependecies go to L<cpan|https://www.cpan.org/>.
 
 =item * Modification within I<index.cgi> need to be made:
 
